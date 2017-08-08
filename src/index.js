@@ -1,10 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import SearchBar from './components/search_bar';
+
+const API_KEY = 'AIzaSyDukHK7egd7uvro8WAlL3WzlrdS5Mt_v0k';
 
 // create a new component.. this component should prodice some html
-const App = function() {
-  return <div>hi!</div>;
+const App = () => {
+  return (<div>
+    <SearchBar />
+  </div>);
 }
 
 
